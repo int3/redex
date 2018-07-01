@@ -1,7 +1,7 @@
 sudo: required
 language: cpp
 compiler: gcc-4.9
-dist: trusty
+dist: xenial
 
 before_install:
   - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
